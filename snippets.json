@@ -1,0 +1,20 @@
+{
+    "button component": {
+        "prefix": "p6-button-component",
+        "body": "<p-button type label=\"${1:label}\" icon iconPos disabled style styleClass=\"${2:}\" (onClick)=\"${3:}\" onFocus onBlur></p-button>$0",
+        "description": "button-component",
+        "scope": ""
+    },
+    "button directive": {
+        "prefix": "p6-button-directive",
+        "body": "<button pButton icon iconPos type=\"button\" label=\"${1:label}\" class=\"${2:}\" (click)=\"${3:}\"></button>$0",
+        "description": "button-directive",
+        "scope": ""
+    },
+    "button splitButton": {
+        "prefix": "p6-button-splitButton",
+        "body": "<p-splitButton label=\"${1:label}\" icon=\"${2:icon}\" (onClick)=\"${3:click()}\" [model]=\"${4:items}\" styleClass=\"${5:class}\"></p-splitButton>$0",
+        "description": "button-splitButton",
+        "scope": ""
+    }
+}
