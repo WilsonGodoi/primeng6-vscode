@@ -8,11 +8,11 @@ This extension allows you to quickly generate primeng 6 snippets with one single
 
 ## Getting started
 
-To use the primeng 6 snippets:
+**To use the primeng 6 snippets:**
 
-    * Open a HTML file, and start typing p6-.
-    * To preview the selected snippet click CTRL+SPACEBAR.
-    * To use the selected snippet simply click TAB.
+* Open a HTML file, and start typing p6-.
+* To preview the selected snippet click CTRL+SPACEBAR.
+* To use the selected snippet simply click TAB.
 
 ## Documentation
 
@@ -25,6 +25,15 @@ Prefix | Description
 button-component | Button Component
 button-directive | Button Directive
 button-splitButton | SplitButton
+
+### Input
+
+Prefix | Description
+--- | ---
+input-inputGroup-addons | InputGroup Addons
+input-inputGroup-multiple-addons | InputGroup Multiple Addons
+input-inputGroup-button-addons | InputGroup Button Addons
+input-inputGroup-checkbox | InputGroup Checkbox
 
 ## Release Notes
 

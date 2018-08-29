@@ -16,5 +16,29 @@
         "body": "<p-splitButton label=\"${1:label}\" icon=\"${2:icon}\" (onClick)=\"${3:click()}\" [model]=\"${4:items}\" styleClass=\"${5:class}\"></p-splitButton>$0",
         "description": "button-splitButton",
         "scope": ""
+    },
+    "input inputGroupAddons": {
+        "prefix": "p6-input-inputGroup-addons",
+        "body": "<div class=\"ui-g-12 ui-md-4\">\n\t<div class=\"ui-inputgroup\">\n\t\t<span class=\"ui-inputgroup-addon\">${1:$}</span>\n\t\t<input type=\"text\" pInputText placeholder=\"${2:placeholder}\">\n\t\t<span class=\"ui-inputgroup-addon\">${3:.00}</span>\n\t</div>\n</div>$0",
+        "description": "input-inputGroup-addons",
+        "scope": ""
+    },
+    "input inputGroupMultipleAddons": {
+        "prefix": "p6-input-inputGroup-multiple-addons",
+        "body": "<div class=\"ui-g\">\n\t<div class=\"ui-g-12\">\n\t\t<div class=\"ui-inputgroup\">\n\t\t\t<span class=\"ui-inputgroup-addon\"><i class=\"fa fa-credit-card\"></i></span>\n\t\t\t<span class=\"ui-inputgroup-addon\"><i class=\"fa fa-cc-visa\"></i></span>\n\t\t\t<input type=\"text\" pInputText placeholder=\"Price\">\n\t\t\t<span class=\"ui-inputgroup-addon\">$</span>\n\t\t\t<span class=\"ui-inputgroup-addon\">.00</span>\n\t\t</div>\n\t</div>\n</div>$0",
+        "description": "input-inputGroup-multiple-addons",
+        "scope": ""
+    },
+    "input inputGroupButtonAddons": {
+        "prefix": "p6-input-inputGroup-button-addons",
+        "body": "<div class=\"ui-g ui-fluid\">\n\t<div class=\"ui-g-12 ui-md-4\">\n\t\t<div class=\"ui-inputgroup\">\n\t\t\t<button pButton type=\"button\" icon=\"pi pi-check\" class=\"ui-button-success\"></button>\n\t\t\t<input type=\"text\" pInputText placeholder=\"Vote\">\n\t\t\t<button pButton type=\"button\" icon=\"pi pi-close\" class=\"ui-button-danger\"></button>\n\t\t</div>\n\t</div>\n</div>$0",
+        "description": "input-inputGroup-button-addons",
+        "scope": ""
+    },
+    "input inputGroupCheckbox": {
+        "prefix": "p6-input-inputGroup-checkbox",
+        "body": "<div class=\"ui-g ui-fluid\">\n\t<div class=\"ui-g-12 ui-md-4\">\n\t\t<div class=\"ui-inputgroup\">\n\t\t\t<span class=\"ui-inputgroup-addon\"><p-checkbox></p-checkbox></span>\n\t\t\t<input type=\"text\" pInputText placeholder=\"Username\">\n\t\t</div>\n\t</div>\n</div>$0",
+        "description": "input-inputGroup-checkbox",
+        "scope": ""
     }
 }
