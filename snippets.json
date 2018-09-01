@@ -76,5 +76,41 @@
         "body": "<p-table [value]=\"${1:array}\">\n\t<ng-template pTemplate=\"header\">\n\t\t<tr>\n\t\t\t<th>Column1</th>\n\t\t\t<th>Column2</th>\n\t\t\t<th>Column3</th>\n\t\t\t<th>Column4</th>\n\t\t</tr>\n\t</ng-template>\n\t<ng-template pTemplate=\"body\" let-${2:}>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t</tr>\n\t</ng-template>\n</p-table>$0",
         "description": "data-table-basic",
         "scope": ""
+    },
+    "panel panelBasic": {
+        "prefix": "p6-panel-panel-basic",
+        "body": "<p-panel header=\"Title\">\n\tContent\n</p-panel>$0",
+        "description": "panel-panel-basic",
+        "scope": ""
+    },
+    "panel panelToggleable": {
+        "prefix": "p6-panel-panel-toggleable",
+        "body": "<p-panel header=\"Title\" [toggleable]=\"true\">\n\tContent\n</p-panel>$0",
+        "description": "panel-panel-toggleable",
+        "scope": ""
+    },
+    "panel panelHeaderAndFooter": {
+        "prefix": "p6-panel-panel-header-and-footer",
+        "body": "<p-panel>\n\t<p-header>\n\t\tHeader content here\n\t</p-header>\n\tBody Content\n\t<p-footer>\n\t\tFooter content here\n\t</p-footer>\n</p-panel>$0",
+        "description": "panel-panel-header-and-footer",
+        "scope": ""
+    },
+    "overlay dialogBasic": {
+        "prefix": "p6-overlay-dialog-basic",
+        "body": "<p-dialog header=\"Title\" [(visible)]=\"${1:display}\">\n\tContent\n</p-dialog>$0",
+        "description": "overlay-dialog-basic",
+        "scope": ""
+    },
+    "overlay dialogWidth": {
+        "prefix": "p6-overlay-dialog-width",
+        "body": "<p-dialog header=\"Title\" [(visible)]=\"${1:display}\" [width]=\"300\">\n\tContent\n</p-dialog>$0",
+        "description": "overlay-dialog-width",
+        "scope": ""
+    },
+    "overlay dialogHeaderAndFooter": {
+        "prefix": "p6-overlay-dialog-header-and-footer",
+        "body": "<p-dialog [(visible)]=\"${1:display}\">\n\t<p-header>\n\t\tHeader content here\n\t</p-header>\n\tContent\n\t<p-footer>\n\t\t//buttons\n\t</p-footer>\n</p-dialog>$0",
+        "description": "overlay-dialog-header-and-footer",
+        "scope": ""
     }
 }

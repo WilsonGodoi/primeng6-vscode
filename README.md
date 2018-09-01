@@ -46,6 +46,22 @@ Prefix | Description
 --- | ---
 data-table-basic | Data TurboTable Basic
 
+### Panel
+
+Prefix | Description
+--- | ---
+panel-panel-basic | Panel Basic
+panel-panel-toggleable | Panel Toggleable
+panel-panel-header-and-footer | Panel Header And Footer
+
+### Overlay
+
+Prefix | Description
+--- | ---
+overlay-dialog-basic | Dialog Basic
+overlay-dialog-width | Dialog Width 
+overlay-dialog-header-and-footer | Dialog Header And Footer
+
 ## Release Notes
 
 Relevant releases:
