@@ -40,5 +40,41 @@
         "body": "<div class=\"ui-g ui-fluid\">\n\t<div class=\"ui-g-12 ui-md-4\">\n\t\t<div class=\"ui-inputgroup\">\n\t\t\t<span class=\"ui-inputgroup-addon\"><p-checkbox></p-checkbox></span>\n\t\t\t<input type=\"text\" pInputText placeholder=\"Username\">\n\t\t</div>\n\t</div>\n</div>$0",
         "description": "input-inputGroup-checkbox",
         "scope": ""
+    },
+    "input calendarBasic": {
+        "prefix": "p6-input-calendar-basic",
+        "body": "<div class=\"ui-g ui-fluid\">\n\t<div class=\"ui-g-12 ui-md-4\">\n\t\t<p-calendar [(ngModel)]=\"${1:date1}\"></p-calendar>\n\t</div>\n</div>$0",
+        "description": "input-calendar-basic",
+        "scope": ""
+    },
+    "input calendarIcon": {
+        "prefix": "p6-input-calendar-icon",
+        "body": "<div class=\"ui-g ui-fluid\">\n\t<div class=\"ui-g-12 ui-md-4\">\n\t\t<p-calendar [(ngModel)]=\"${1:date1}\" [showIcon]=\"true\"></p-calendar>\n\t</div>\n</div>$0",
+        "description": "input-calendar-icon",
+        "scope": ""
+    },
+    "input calendarNavigators": {
+        "prefix": "p6-input-calendar-navigators",
+        "body": "<div class=\"ui-g ui-fluid\">\n\t<div class=\"ui-g-12 ui-md-4\">\n\t\t<p-calendar [(ngModel)]=\"${1:date1}\" [monthNavigator]=\"true\" [yearNavigator]=\"true\" yearRange=\"2000: 2030\"></p-calendar>\n\t</div>\n</div>$0",
+        "description": "input-calendar-navigators",
+        "scope": ""
+    },
+    "input calendarTime": {
+        "prefix": "p6-input-calendar-time",
+        "body": "<div class=\"ui-g ui-fluid\">\n\t<div class=\"ui-g-12 ui-md-4\">\n\t\t<p-calendar [(ngModel)]=\"${1:date1}\" [showTime]=\"true\"></p-calendar>\n\t</div>\n</div>$0",
+        "description": "input-calendar-time",
+        "scope": ""
+    },
+    "input calendarTimeOnly": {
+        "prefix": "p6-input-calendar-time-only",
+        "body": "<div class=\"ui-g ui-fluid\">\n\t<div class=\"ui-g-12 ui-md-4\">\n\t\t<p-calendar [(ngModel)]=\"${1:date1}\" [timeOnly]=\"true\"></p-calendar>\n\t</div>\n</div>$0",
+        "description": "input-calendar-time-only",
+        "scope": ""
+    },
+    "data table": {
+        "prefix": "p6-data-table-basic",
+        "body": "<p-table [value]=\"${1:array}\">\n\t<ng-template pTemplate=\"header\">\n\t\t<tr>\n\t\t\t<th>Column1</th>\n\t\t\t<th>Column2</th>\n\t\t\t<th>Column3</th>\n\t\t\t<th>Column4</th>\n\t\t</tr>\n\t</ng-template>\n\t<ng-template pTemplate=\"body\" let-${2:}>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t</tr>\n\t</ng-template>\n</p-table>$0",
+        "description": "data-table-basic",
+        "scope": ""
     }
 }

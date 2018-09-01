@@ -34,6 +34,17 @@ input-inputGroup-addons | InputGroup Addons
 input-inputGroup-multiple-addons | InputGroup Multiple Addons
 input-inputGroup-button-addons | InputGroup Button Addons
 input-inputGroup-checkbox | InputGroup Checkbox
+input-calendar-basic | Calendar Basic
+input-calendar-icon | Calendar Icon
+input-calendar-navigators | Calendar Navigators
+input-calendar-time | Calendar Time
+input-calendar-time-only | Calendar Time Only
+
+### Data
+
+Prefix | Description
+--- | ---
+data-table-basic | Data TurboTable Basic
 
 ## Release Notes
 
