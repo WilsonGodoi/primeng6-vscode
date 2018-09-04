@@ -53,6 +53,7 @@ Prefix | Description
 panel-panel-basic | Panel Basic
 panel-panel-toggleable | Panel Toggleable
 panel-panel-header-and-footer | Panel Header And Footer
+panel-tabView-default | Panel TabView Default
 
 ### Overlay
 
