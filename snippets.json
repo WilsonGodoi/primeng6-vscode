@@ -71,6 +71,24 @@
         "description": "input-calendar-time-only",
         "scope": ""
     },
+    "input inputTextBasic": {
+        "prefix": "p6-input-inputText-basic",
+        "body": "<input id=\"input\" type=\"${1|text,password,email|}\" pInputText [(ngModel)]=\"${2:text}\">$0",
+        "description": "input-inputText-basic",
+        "scope": ""
+    },
+    "input inputTextFloatLabel": {
+        "prefix": "p6-input-inputText-floatLabel",
+        "body": "<span class=\"ui-float-label\">\n\t<input id=\"float-input\" type=\"${1|text,password,email|}\" pInputText>\n\t<label for=\"float-input\">Username</label>\n</span>$0",
+        "description": "input-inputText-floatLabel",
+        "scope": ""
+    },
+    "input inputTextDisabled": {
+        "prefix": "p6-input-inputText-disabled",
+        "body": "<input id=\"disabled-input\" type=\"${1|text,password,email|}\" pInputText [disabled]=\"${1:disabled}\" />$0",
+        "description": "input-inputText-disabled",
+        "scope": ""
+    },
     "data table": {
         "prefix": "p6-data-table-basic",
         "body": "<p-table [value]=\"${1:array}\">\n\t<ng-template pTemplate=\"header\">\n\t\t<tr>\n\t\t\t<th>Column1</th>\n\t\t\t<th>Column2</th>\n\t\t\t<th>Column3</th>\n\t\t\t<th>Column4</th>\n\t\t</tr>\n\t</ng-template>\n\t<ng-template pTemplate=\"body\" let-${2:}>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t</tr>\n\t</ng-template>\n</p-table>$0",
