@@ -39,6 +39,9 @@ input-calendar-icon | Calendar Icon
 input-calendar-navigators | Calendar Navigators
 input-calendar-time | Calendar Time
 input-calendar-time-only | Calendar Time Only
+input-inputText-basic | InputText Basic
+input-inputText-floatLabel | InputText Float Label
+input-inputText-disabled | InputText Disabled
 
 ### Data
 

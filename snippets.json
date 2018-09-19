@@ -79,13 +79,13 @@
     },
     "input inputTextFloatLabel": {
         "prefix": "p6-input-inputText-floatLabel",
-        "body": "<span class=\"ui-float-label\">\n\t<input id=\"float-input\" type=\"${1|text,password,email|}\" pInputText>\n\t<label for=\"float-input\">Username</label>\n</span>$0",
+        "body": "<span class=\"ui-float-label\">\n\t<input id=\"float-input\" type=\"${1|text,password,email|}\" pInputText>\n\t<label for=\"float-input\">${2:placeholder}</label>\n</span>$0",
         "description": "input-inputText-floatLabel",
         "scope": ""
     },
     "input inputTextDisabled": {
         "prefix": "p6-input-inputText-disabled",
-        "body": "<input id=\"disabled-input\" type=\"${1|text,password,email|}\" pInputText [disabled]=\"${1:disabled}\" />$0",
+        "body": "<input id=\"disabled-input\" type=\"${1|text,password,email|}\" pInputText [disabled]=\"${2:disabled}\" />$0",
         "description": "input-inputText-disabled",
         "scope": ""
     },
