@@ -89,6 +89,12 @@
         "description": "input-inputText-disabled",
         "scope": ""
     },
+    "input inputRadioButton": {
+        "prefix": "p6-input-radioButton",
+        "body": "<p-radioButton name=\"${1}\" value=\"${2}\" label=\"${3}\" [(ngModel)]=\"${4}\" inputId=\"${5}\"></p-radioButton>$0",
+        "description": "input-radioButton",
+        "scope": ""
+    },
     "data table": {
         "prefix": "p6-data-table-basic",
         "body": "<p-table [value]=\"${1:array}\">\n\t<ng-template pTemplate=\"header\">\n\t\t<tr>\n\t\t\t<th>Column1</th>\n\t\t\t<th>Column2</th>\n\t\t\t<th>Column3</th>\n\t\t\t<th>Column4</th>\n\t\t</tr>\n\t</ng-template>\n\t<ng-template pTemplate=\"body\" let-${2:}>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t\t<td></td>\n\t\t</tr>\n\t</ng-template>\n</p-table>$0",

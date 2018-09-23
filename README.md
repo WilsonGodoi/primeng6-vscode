@@ -1,4 +1,4 @@
-# PrimeNG 6 snippets for Visual Studio Code
+# PrimeNG 6 snippets for Angular
 
 Html primeng 6 snippets for Angular 2,4,5 & 6.
 
@@ -42,6 +42,7 @@ input-calendar-time-only | Calendar Time Only
 input-inputText-basic | InputText Basic
 input-inputText-floatLabel | InputText Float Label
 input-inputText-disabled | InputText Disabled
+input-radioButton | RadioButton
 
 ### Data
 
